@@ -1,0 +1,30 @@
+{
+    "name": "kiboflavin/acns-parser",
+    "type": "library",
+    "description": "PHP Automated Copyright Notice System (ACNS) parser library",
+    "keywords": [
+        "php",
+        "library",
+        "automated copyright notice system",
+        "acns",
+        "copyright",
+        "notice",
+        "notice-and-notice"
+    ],
+    "homepage": "https://github.com/kiboflavin/acns-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Haggart",
+            "email": "phpdev@bsfh.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ACNS\\Parser\\": "ACNS/Parser/"
+        }
+    }
+}
